@@ -12,7 +12,7 @@ const Input: FC<InputProps> = ({ placeholder }) => {
       <input
         type="text"
         placeholder={placeholder}
-        className=" outline-none ring-0 bg-transparent"
+        className=" outline-none ring-0 bg-transparent grow"
       />
     </div>
   );
